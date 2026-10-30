@@ -1,0 +1,27 @@
+catalog:
+  abbreviation: KA
+  counts:
+    candidates: 0
+    canonical: 0
+    entities: 0
+    open_change_requests: 0
+    research_files: 0
+    retired: 0
+  cross_cutting:
+    change_requests: change-requests/
+    classifications: classifications/
+    contributions_queue: contributions/
+    schemas: schemas/
+    validators: scripts/
+  description: 'Applied know-how made explicit and durable, existing independent of any one Actor; distinct from Skill (L3), which an Actor personally possesses.
+
+    '
+  entities: []
+  id: dea:catalog-knowledge-assets
+  metamodel_version: 1.0.0
+  name: Knowledge Asset
+  owner: TechNeHub Labs
+  repository: https://github.com/technehub-labs/dea-catalog-knowledge-assets.git
+  research_registers: []
+  status: active
+  version: 0.1.0

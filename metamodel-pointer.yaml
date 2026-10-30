@@ -1,8 +1,32 @@
-abbreviation: KA
-description: Reference catalog for Knowledge Asset entities. Bootstrapped from dea-metaframework/tools/catalog-repo-template/.
+# Metamodel Pointer — Knowledge Asset
+#
+# Two consumers, two blocks (see FOUNDATIONS §5):
+#   - the top-level identity keys are consumed by the vendored
+#     regenerate_catalog.py to build CATALOG.yaml's catalog block;
+#   - the `metamodel:` allocation block is validated by
+#     dea-architecture-framework validate-against-model.yml
+#     against the pinned root-model ref (v0.8.0), and asserted
+#     locally by scripts/check_pointer.py.
+#
+# Allocation changes go through the root model, not this file.
 id: dea:catalog-knowledge-assets
-metamodel_version: 1.0.0
 name: Knowledge Asset
-owner: TechNeHub Labs
-status: active
+abbreviation: KA
 version: 0.1.0
+status: active
+metamodel_version: 1.0.0
+owner: TechNeHub Labs
+description: |
+  Applied know-how made explicit and durable, existing independent of any one Actor; distinct from Skill (L3), which an Actor personally possesses.
+metamodel:
+  building_block: L4-information-knowledge
+  class_alias: KA
+  entity_id: dea:entity-knowledge-asset
+  layer: L4
+  version: v0.8.0
+  viewer_url: https://technehub-labs.github.io/metamodel/?entity=KA
+links:
+  metamodel_repo: https://github.com/technehub-labs/dea-metamodel
+  root_model: https://github.com/technehub-labs/dea-architecture-framework
+  viewer: https://technehub-labs.github.io/metamodel/?entity=KA
+  github: https://github.com/technehub-labs/dea-catalog-knowledge-assets
