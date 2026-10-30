@@ -1,0 +1,40 @@
+description: 'The metamodel''s semantic rules: entity status versus lifecycle, the profile mechanism, relationship semantics (closed vocabulary, canonical direction, cardinality), the type system, and serialization versioning. Applied know-how for metamodel interpretation.'
+evidence:
+  rationale: A committed standards or method document, verifiable at the cited path and applied across repositories (the citing CRs are named in the description). Corroborated at admission.
+  sources:
+  - kind: repository-path
+    reference: technehub-labs/dea-metamodel:docs/semantics.md
+governance:
+  approval_status: approved
+  functional_owner: Emmanuel A. Otchere
+  review_date: '2026-11-02'
+  source_and_evidence: Population CR-KA-CAT-02; sources cited per record under evidence.
+  steward: Emmanuel A. Otchere
+id: dea:knowledge-asset-metamodel-semantics
+knowledge_form: guideline
+lifecycle_status: active
+metadata:
+  created_at: '2026-11-02'
+  created_by: Emmanuel A. Otchere
+  status: active
+  updated_at: '2026-11-02'
+name: OpenDEA Metamodel Semantics
+provenance:
+  ladder_passage:
+  - actor: Emmanuel A. Otchere
+    date: '2026-11-02'
+    stage: candidate
+  - actor: Emmanuel A. Otchere
+    date: '2026-11-02'
+    stage: corroborated
+  - actor: Emmanuel A. Otchere
+    date: '2026-11-02'
+    stage: reviewed
+  - actor: Emmanuel A. Otchere
+    date: '2026-11-02'
+    stage: canonical
+tags:
+- seed
+- standards-document
+type: KnowledgeAsset
+version: 1.0.0

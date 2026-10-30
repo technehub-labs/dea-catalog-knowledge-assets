@@ -1,0 +1,40 @@
+description: The 12 normative governance requirements (EGV-001..012) for entity identity, contracts, relationships, lifecycle, and conformance across the OpenDEA portfolio, with the eight deliverables and six implementation stages. Applied know-how for entity governance, established by CR-012.
+evidence:
+  rationale: A committed standards or method document, verifiable at the cited path and applied across repositories (the citing CRs are named in the description). Corroborated at admission.
+  sources:
+  - kind: repository-path
+    reference: technehub-labs/dea-governance:change-requests/CR-012-org-wide-entity-governance.md
+governance:
+  approval_status: approved
+  functional_owner: Emmanuel A. Otchere
+  review_date: '2026-11-02'
+  source_and_evidence: Population CR-KA-CAT-02; sources cited per record under evidence.
+  steward: Emmanuel A. Otchere
+id: dea:knowledge-asset-general-entity-governance-standard
+knowledge_form: guideline
+lifecycle_status: active
+metadata:
+  created_at: '2026-11-02'
+  created_by: Emmanuel A. Otchere
+  status: active
+  updated_at: '2026-11-02'
+name: Org-Wide General Entity Governance Standard
+provenance:
+  ladder_passage:
+  - actor: Emmanuel A. Otchere
+    date: '2026-11-02'
+    stage: candidate
+  - actor: Emmanuel A. Otchere
+    date: '2026-11-02'
+    stage: corroborated
+  - actor: Emmanuel A. Otchere
+    date: '2026-11-02'
+    stage: reviewed
+  - actor: Emmanuel A. Otchere
+    date: '2026-11-02'
+    stage: canonical
+tags:
+- seed
+- standards-document
+type: KnowledgeAsset
+version: 1.0.0
