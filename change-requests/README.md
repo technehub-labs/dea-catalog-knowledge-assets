@@ -4,8 +4,8 @@ This index tracks every change request that lands on this repository.
 
 | CR | Title | Status | Notes |
 |----|-------|--------|-------|
-| [CR-KA-CAT-01](CR-KA-CAT-01-catalogue-foundation.md) | Catalogue foundation (kit bring-up) | Landed (this PR) | Standard kit: pointer, dependencies, schema projection, gates 1-6, workflows, FOUNDATIONS, record standard. No records admitted. |
-| CR-KA-CAT-02 | Initial population | Planned | Evidence-gated seed population per FOUNDATIONS §7. |
+| [CR-KA-CAT-01](CR-KA-CAT-01-catalogue-foundation.md) | Catalogue foundation (kit bring-up) | Landed (PR #1) | Standard kit: pointer, dependencies, schema projection, gates 1-6, workflows, FOUNDATIONS, record standard. No records admitted. |
+| [CR-KA-CAT-02](CR-KA-CAT-02-initial-population.md) | Initial population | Landed (this PR) | 8 canonical records: the org's committed standards/method documents (guidelines + one case-study). |
 
 ## Numbering
 
